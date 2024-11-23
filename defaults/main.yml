@@ -1,6 +1,8 @@
 ---
-app_emulatorjs_enabled: false
-app_emulatorjs_puid: '16704'
-app_emulatorjs_pgid: '16704'
-app_emulatorjs_tz: "Europe/Zurich"
-app_emulatorjs_dir: "/opt/app-emulatorjs"
+role_emulatorjs_image: 'lscr.io/linuxserver/emulatorjs'
+role_emulatorjs_container: 'emulatorjs'
+role_emulatorjs_puid: '1000'
+role_emulatorjs_pgid: '1000'
+role_emulatorjs_tz: 'Europe/Zurich'
+role_emulatorjs_dir: '/opt/app-emulatorjs'
+role_emulatorjs_network: 'app-network'
